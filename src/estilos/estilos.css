@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #3084ea, #93d7e1);
+  }
+  
+  .contenedor-principal {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #ebe7b2, #f0f0f0);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  
+  .contenedor-movie {
+    display: flex;
+    border: 1px solid #2e464a;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: linear-gradient(to right, #c7e7e3, #f0f0f0);
+  }
+  
+  .imagen-movie {
+    width: 150px;
+    height: auto;
+    margin-right: 20px; 
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .contenedor-texto-movie {
+    padding: 20px;
+  }
+  
+  .titulo-movie {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0b0c0c;
+  }
+  
+  .resena-movie {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #262626
+  }
+
+  
+.botones-contador {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.botones-contador button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botones-contador button:hover {
+  background-color: #ac95f1;
+}
